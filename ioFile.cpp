@@ -22,6 +22,15 @@ int main() {
         // menulis dan memasukan nilai dari 'baris' ke dalam file
         outfile << baris << endl;
     }
+    //selesai dalam menulis sekarang tutup filenya
+    outfile.close();
+
+    //membuka file dalam mode membaca
+    ifstream infile;
+    //menunjuk ke sebuah file
+    infile.open("contohfile.txt");
+
+   
 
 }
 
